@@ -1,0 +1,46 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: pink;
+}
+
+body section div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;	
+	flex-wrap: wrap;
+	margin: 20px;
+}
+
+header {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+section {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	background-color: blue;
+}
+.conteiner{
+	width: 400px;
+	height: 400px;
+	position: relative;
+	right: 80px;
+
+}
+.item{
+	width:150px;
+	height: 150px;
+	background-color: #00AEED;
+	border-radius: 50%;
+}
+img{
+	width:145px;
+	height: 145px;
+	border-radius: 50%;
+}
