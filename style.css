@@ -1,7 +1,9 @@
 body {
 	margin: 0;
 	padding: 0;
-	background-color: pink;
+	background:url('onda.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
 }
 
 body section div {
@@ -24,7 +26,7 @@ section {
 	justify-content: center;
 	flex-direction: column;
 	align-items: center;
-	background-color: blue;
+	/*background-color: #00AEED;*/
 }
 .conteiner{
 	width: 400px;
@@ -36,7 +38,7 @@ section {
 .item{
 	width:150px;
 	height: 150px;
-	background-color: #00AEED;
+	background-color: #97FFFF;
 	border-radius: 50%;
 }
 img{
@@ -44,3 +46,6 @@ img{
 	height: 145px;
 	border-radius: 50%;
 }
+
+  p { font: italic small-caps bold 22px "Times New Roman", sans-serif;}
+  li { font: small bold 20px "Times New Roman", sans-serif;}
